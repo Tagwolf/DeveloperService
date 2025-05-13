@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Exchange Services</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px 20px;
+    }
+
+    .rocket {
+      width: 180px;
+      animation: launch 3s ease-in-out infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes launch {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 20px;
+    }
+
+    .product {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+    }
+
+    .product img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    .product h2 {
+      margin: 15px 0 10px;
+      font-size: 1.5rem;
+    }
+
+    .product p {
+      font-size: 1rem;
+      color: #ddd;
+    }
+
+    .discord-button {
+      margin: 50px auto;
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #5865F2;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 12px;
+      transition: background-color 0.3s ease;
+    }
+
+    .discord-button:hover {
+      background-color: #4752c4;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="985c141d-8f53-4417-a295-cec15e5f499f.png" alt="Rocket Logo" class="rocket">
+    <h1>Developer Exchange Services</h1>
+    <p>Individuelle Bots, Websites & Tools mit ❤️ entwickelt.</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://imgur.com/KMC4wRc" alt="Bot Service">
+      <h2>Discord Bot Service</h2>
+      <p>Individuelle Minecraft-Bots mit Automatisierung, Befehlen & Dashboard.</p>
+    </div>
+    <div class="product">
+      <img src="https://imgur.com/a/9khbvqO" alt="Web Service">
+      <h2>Website Entwicklung</h2>
+      <p>Moderne, responsive Websites mit Stil und Performance für jedes Projekt.</p>
+    </div>
+    <div class="product">
+      <img src="https://imgur.com/a/Rg7Ztso" alt="Minecraft Plugin">
+      <h2>Minecraft Plugins</h2>
+      <p>Maßgeschneiderte Bukkit/Spigot-Plugins für Serverprojekte aller Art.</p>
+    </div>
+  </section>
+
+  <a href="https://discord.gg/Z6k2G2Y8YU" class="discord-button" target="_blank">Jetzt über Discord kontaktieren</a>
+
+  <footer>
+    © 2025 Developer Exchange Service – Alle Rechte vorbehalten.
+  </footer>
+</body>
+</html>
